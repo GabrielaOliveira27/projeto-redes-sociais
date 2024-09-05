@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Redes Sociais</title>
+
+  <style>
+      body {
+        position: relative;
+        height: 100vh;
+        background-image: url('imagens/fundo-madeira.jpg');
+        background-position: right top;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+      }
+
+      div > img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+
+      #image2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 268px;    
+      }
+
+      .imagem1 {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        transform: translate(10%, 0%);
+        width: 50px;
+        border-radius: 40px;
+      }
+
+      .imagem2 {
+        position: absolute;
+        top: 9%;
+        right: 0%;
+        transform: translate(10%, 0%);
+        width: 50px;
+        border-radius: 40px;
+      }
+
+      .imagem3 {
+        position: absolute;
+        top: 18%;
+        right: 0%;
+        transform: translate(10%, 0%);
+        width: 50px;
+        border-radius: 40px;
+      }
+
+      .imagem4 {
+        position: absolute;
+        top: 27%;
+        right: 0%;
+        transform: translate(10%, 0%);
+        width: 50px;
+        border-radius: 40px;
+      }
+
+      .imagem5 {
+        position: absolute;
+        top: 36%;
+        right: 0%;
+        transform: translate(10%, 0%);
+        width: 50px;
+        border-radius: 40px;
+      }
+
+      .imagem6 {
+        position: absolute;
+        top: 45%;
+        right: 0%;
+        transform: translate(10%, 0%);
+        width: 50px;
+        border-radius: 40px;
+      }
+
+      iframe {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+        width: 270px; 
+        height: 475px;
+        overflow-x: auto;
+      }
+
+      a img {
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.219);
+      }
+
+      a img:hover {
+        transform: scale(1, 1);
+        transition: 1s;
+        border: 1px solid white;
+        
+      }
+
+      
+
+  </style>
+</head>
+<body>
+    <div>
+        <img src="imagens/frame-iphone.png" alt="iPhone">
+    </div>
+
+    <div>
+        <img id="image2" src="imagens/tela-home.jpg" alt="home">
+    </div>
+       <!-- iframe home -->
+    <iframe frameborder="0" scrolling="yes" name="frame"></iframe>
+       
+    
+    <a href="http://127.0.0.1:5501/Desafios/desafio%20rede%20social/index.html" targe="frame"><img class="imagem1" src="imagens/logo-home.jpg" alt=""></a>
+       
+       <a href="https://www.youtube.com/@GabrielaPereiradeOliveira-j2e" target="frame"><img class="imagem2" src="imagens/logo-youtube.jpg" alt=""></a>
+       <a href="https://github.com/GabrielaOliveira27" target="frame"><img class="imagem3" src="imagens/logo-github.jpg" alt=""></a>
+       <a href="https://www.instagram.com/" target="frame"><img class="imagem4" src="imagens/logo-instagram.jpg" alt=""></a>
+       <a href="https://en.wikipedia.org/wiki/Twitter" target="frame"><img class="imagem5" src="imagens/logo-twitter.jpg" alt=""></a>
+       
+       <a href="https://www.facebook.com/gustavoguanabara/?locale=pt_BR" target="frame"><img class="imagem6" src="imagens/logo-facebook.jpg" alt=""></a>
+</body>
+</html>
